@@ -1,6 +1,6 @@
 {
-  "short_name": "MyApp",
-  "name": "My Web App",
+  "short_name": "Ломоворот",
+  "name": "Ломоворот | Вход",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#FFFFFF",
