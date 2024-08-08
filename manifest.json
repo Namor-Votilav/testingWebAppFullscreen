@@ -25,7 +25,7 @@
      "src": "screenshot_wide.png",
       "sizes": "512x384",
       "type": "image/gif",
-      "form_factor": "narrow",
+      "form_factor": "wide",
       "label": "Вход на приёмку с Ломоворотом"
     }
 ]
