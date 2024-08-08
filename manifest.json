@@ -19,7 +19,14 @@
       "sizes": "320x512",
       "type": "image/gif",
       "form_factor": "narrow",
-      "label": "Wonder Widgets"
+      "label": "Вход на приёмку с Ломоворотом"
+    },
+    {
+     "src": "screenshot_wide.png",
+      "sizes": "512x384",
+      "type": "image/gif",
+      "form_factor": "narrow",
+      "label": "Вход на приёмку с Ломоворотом"
     }
 ]
 }
