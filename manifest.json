@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#000000",
-  "description": "Compress and compare images with different codecs right in your browser.",
+  "description": "Интерфейс Ломоворота для быстрого входа клиентов на приёмку лома.",
   "icons": [
     {
       "src": "icon.png",
