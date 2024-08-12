@@ -478,5 +478,9 @@
   "orientation": "any",
   "categories": [
     "utilities"
+  ],
+  "display_override": [
+    "window-controls-overlay",
+    "fullscreen"
   ]
 }
