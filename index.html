@@ -28,5 +28,27 @@
 </head>
 <body>
     <h1>Hello World</h1>
+
+    <script>
+        // Function to request fullscreen
+        function requestFullscreen() {
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen();
+            } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+                document.documentElement.mozRequestFullScreen();
+            } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari, Opera
+                document.documentElement.webkitRequestFullscreen();
+            } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+                document.documentElement.msRequestFullscreen();
+            }
+        }
+
+        // Automatically request fullscreen when the app loads
+        document.addEventListener('DOMContentLoaded', (event) => {
+            if (window.matchMedia('(display-mode: standalone)').matches) {
+                requestFullscreen();
+            }
+        });
+    </script>
 </body>
 </html>
