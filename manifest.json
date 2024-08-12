@@ -2,7 +2,7 @@
   "short_name": "Ломоворот",
   "name": "Ломоворот | Вход",
   "start_url": "/index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#177357",
   "theme_color": "#177357",
   "description": "Интерфейс Ломоворота для быстрого входа клиентов на приёмку лома.",
