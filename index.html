@@ -43,12 +43,15 @@
             }
         }
 
-        // Automatically request fullscreen when the app loads
-        document.addEventListener('DOMContentLoaded', (event) => {
-            if (window.matchMedia('(display-mode: standalone)').matches) {
-                requestFullscreen();
-            }
-        });
+        // Function to handle the first click and request fullscreen
+        function handleFirstClick() {
+            requestFullscreen();
+            // Remove the event listener after the first click
+            document.body.removeEventListener('click', handleFirstClick);
+        }
+
+        // Attach the event listener for the first click
+        document.body.addEventListener('click', handleFirstClick);
     </script>
 </body>
 </html>
